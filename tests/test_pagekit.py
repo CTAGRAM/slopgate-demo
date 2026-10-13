@@ -14,3 +14,8 @@ def test_page_returns_slice():
 def test_rejects_bad_size():
     with pytest.raises(ValueError):
         page_count(10, 0)
+
+
+def test_page_count_exact_multiple():
+    assert page_count(100, 10) == 10
+    assert page_count(0, 10) == 0
