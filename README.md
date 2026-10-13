@@ -14,3 +14,7 @@ page(list(range(95)), 2, 10)     # [10, 11, ..., 19]
 See [CONTRIBUTING.md](CONTRIBUTING.md). Run the tests with `python -m pytest`.
 
 *This repository is the live demo playground for [SlopGate](https://github.com/CTAGRAM/slopgate).*
+
+## Contributors
+
+- CTAGRAM ⭐ Hacktoberfest 2026
