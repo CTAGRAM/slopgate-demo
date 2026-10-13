@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://coderabbit.ai/integrations/schema.v2.json
+# CodeRabbit runs here next to SlopGate, so the arena can compare their verdicts on the same PRs.
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  slop_detection:
+    enabled: true
+    include_all_authors: true   # the demo PRs come from the repo owner, whom CodeRabbit skips by default
+    label: "coderabbit:slop"
